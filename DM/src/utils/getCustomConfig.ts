@@ -6,6 +6,9 @@ interface Config {
   searchName?: string
   scriptStr?: string
   downloadPath?: string
+  onlyOne?: boolean
+  maxCount?: number
+  platformType?: number
 }
 
 export default function getCustomConfig(): Config {
